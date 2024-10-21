@@ -1,5 +1,2 @@
 #!/bin/bash
-# this script runs a python script
-
 python3 "$PYFILE"
-
