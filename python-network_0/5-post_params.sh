@@ -1,3 +1,3 @@
 #!/bin/bash
-# Bash scripts that sends a POST request to a given URL.
-curl -s -X POST -d "email=hr@holbertonschool.com&subject=I will always be here for PLD" "$1"
+# Send a GET request to a given URL with a header variable.
+curl -sH "X-School-User-Id: 98" "$1""
